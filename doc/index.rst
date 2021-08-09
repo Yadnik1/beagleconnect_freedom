@@ -10,7 +10,7 @@ BeagleBoard.org BeagleConnect Freedom is a wireless
 Internet of Things board based on the SimpleLink multi-Standard CC1352P wireless MCU.
 
 
-.. figure:: img/beagleconnect_freedom.jpeg
+.. figure:: img/beagleconnect_freedom.png
    :width: 400px
    :align: center
    :alt: BeagleBoard.org BeagleConnect Freedom
