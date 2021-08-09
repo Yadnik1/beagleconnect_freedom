@@ -1,0 +1,41 @@
+#
+# Copyright (c) 2020 Erik Larson
+# Copyright (c) 2020 Jason Kridner, BeagleBoard.org Foundation
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+CONFIG_SOC_SERIES_CC13X2_CC26X2=y
+CONFIG_SOC_CC1352R=y
+CONFIG_BOARD_BEAGLECONNECT_FREEDOM=y
+
+CONFIG_CC13X2_CC26X2_BOOTLOADER_ENABLE=y
+CONFIG_CC13X2_CC26X2_BOOTLOADER_BACKDOOR_ENABLE=y
+CONFIG_CC13X2_CC26X2_BOOTLOADER_BACKDOOR_PIN=15
+
+
+CONFIG_LIS2DH_OPER_MODE_LOW_POWER=y
+
+CONFIG_BUILD_OUTPUT_HEX=y
+
+# enable GPIO
+CONFIG_GPIO=y
+# enable I2C
+CONFIG_I2C=y
+# enable SPI
+CONFIG_SPI=y
+# enable ADC
+CONFIG_ADC=y
+# enable PWM
+CONFIG_PWM=y
+
+# enable uart driver
+CONFIG_SERIAL=y
+
+# enable console
+CONFIG_CONSOLE=y
+
+# enble uart console
+CONFIG_UART_CONSOLE=y
+
+
